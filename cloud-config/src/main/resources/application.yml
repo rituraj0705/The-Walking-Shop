@@ -1,0 +1,12 @@
+server:
+  port: 9393
+
+spring:
+  application:
+    name: CLOUD-CONFIG
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/rituraj0705/config-server
+          clone-on-start: true
